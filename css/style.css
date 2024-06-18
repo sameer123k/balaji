@@ -779,4 +779,58 @@
     .headerLogo{
             height: 80px;
     }
+    .destination .destination-item img{
+        height: 300px;
+        
+    }
+ }
+.animated{
+    padding: 30px 0;
+    background-color: #f2f2f2;
+}
+ .animated h1{
+    text-align: center;
+    font-size: 35px;
+ }
+ .animated h1 span{
+    color:#e56e44;
+    font-weight: 600;
+ }
+ .contactIcon{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: #e56e44;
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+ }
+ .contactIcon i{
+    font-size: 30px;
+    color: #fff;
+ }
+ .callWhatsappdiv{
+    position: fixed;
+    width:50px;
+    height: 80px;
+    bottom: 100px;
+    left: 25px;
+    display: flex;
+    flex-direction: column;
+    z-index: 9999;
+ }
+ .callWhatsappdiv a{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+      background-color: #e56e44;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin: 3px 0;
+    padding: 5px;
  }
